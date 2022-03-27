@@ -7570,27 +7570,32 @@ var instance = new Mark(result);
 // Get keywords from user input to search and display all values matched to screen
 const inputHandler = function (e) {
     let keywords = e.target.value;
-    let searchResult = currentBank.filter((item) => item.includes(keywords.toLowerCase()))
-
-    // Display to screen
-    result.innerHTML = ""
-    if (searchResult.length) {
-        searchResult.forEach((item) => {
-            const node = document.createElement("p");
-            const textnode = document.createTextNode(item);
-            node.appendChild(textnode);
-
-            result.appendChild(node)
-        })
-
-        if(isEnableHighlight){
-            instance.mark(keywords, {
-                "element": "span",
-                "className": "highlight"
-            });
+    // Start enable search when user inputed more than 2 characters to better performance
+    if(keywords.length > 2){
+        let searchResult = currentBank.filter((item) => item.includes(keywords.toLowerCase()))
+    
+        // Display to screen
+        result.innerHTML = ""
+        if (searchResult.length) {
+            const resultList = document.createElement("ul")
+            searchResult.forEach((item) => {
+                const node = document.createElement("li");
+                const textnode = document.createTextNode(item);
+                node.appendChild(textnode);
+    
+                resultList.appendChild(node)
+            })
+            result.appendChild(resultList)
+    
+            if(isEnableHighlight){
+                instance.mark(keywords, {
+                    "element": "span",
+                    "className": "highlight"
+                });
+            }
+        } else {
+            result.innerHTML = '<p style="color: red">Not found!</p>'
         }
-    } else {
-        result.innerHTML = '<p style="color: red">Not found!</p>'
     }
 }
 
