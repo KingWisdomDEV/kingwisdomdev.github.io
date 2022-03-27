@@ -6,6 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Search Keys | King Wisdom</title>
+    <style>
+        .highlight {
+            background-color: #B6FFCE;
+        }
+    </style>
 </head>
 
 <body>
@@ -19,7 +24,15 @@
     <input type="radio" id="dbw" name="bankName" value="dbw">
     <label for="dbw">dbw</label>
     <br>
-    <input type="text" id="keywords" style="width: 300px"/>
+
+    <span>Enable highlight text</span>
+    <input type="radio" id="no-hightlight" name="isEnableHighlight" value="no">
+    <label for="no-hightlight">No(Máy yếu thì nên tắt)</label>
+    <input type="radio" id="yes-hightlight" checked name="isEnableHighlight" value="yes">
+    <label for="yes-hightlight">Yes</label>
+    <br>
+
+    <input type="text" id="keywords" style="width: 300px" />
     <button id="btn-search-new">Search New</button>
 
     <div id="result">
@@ -27,6 +40,9 @@
     </div><br><br><br>
     @Designed by <a href="https://github.com/KingWisdomDEV">KingWisdom</a>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js"
+        integrity="sha512-5CYOlHXGh6QpOFA/TeTylKLWfB3ftPsde7AnmhuitiTX4K5SqCLBeKro6sPS8ilsz1Q4NRx3v8Ko2IBiszzdww=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="./script.js"></script>
 </body>
 

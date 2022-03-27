@@ -2915,7 +2915,6 @@ A textual object is a well formed XML document if | (i) Taken as a whole it matc
 The attribute used to define a new namespace is | Xmlns
 To match the root node in XMLT transform the syntax will be | <xsl:template match=" /">
 `.toLowerCase().split("\n")
-
 const MLN_BANKS = `Loại tiền nào  có chức năng cất trữ | Tiền vàng
 Tư bản cố định và tư bản lưu động thuộc phạm trù tư bản nào? | Tư bản sản xuất.
 Khi xác định tính chất của phạm trù "Cái chung", triết học Mác- Lênin khẳng định cái chung là cái | Bản chất
@@ -7556,13 +7555,17 @@ what are the uses of metadata in data warehouse? | it provides information about
 
 // Handle to get current Banks to search key
 let currentBank = PRX_BANKS
+let isEnableHighlight = true
 document.querySelector('#prx').addEventListener("click", () => { currentBank = PRX_BANKS });
 document.querySelector('#mln').addEventListener("click", () => { currentBank = MLN_BANKS });
 document.querySelector('#mas').addEventListener("click", () => { currentBank = MAS_BANKS });
 document.querySelector('#dbw').addEventListener("click", () => { currentBank = DBW_BANKS });
+document.querySelector('#no-hightlight').addEventListener("click", () => { isEnableHighlight = false });
+document.querySelector('#yes-hightlight').addEventListener("click", () => { isEnableHighlight = true });
 
 let result = document.querySelector("#result")
 let input = document.querySelector("#keywords")
+var instance = new Mark(result);
 
 // Get keywords from user input to search and display all values matched to screen
 const inputHandler = function (e) {
@@ -7580,6 +7583,12 @@ const inputHandler = function (e) {
             result.appendChild(node)
         })
 
+        if(isEnableHighlight){
+            instance.mark(keywords, {
+                "element": "span",
+                "className": "highlight"
+            });
+        }
     } else {
         result.innerHTML = '<p style="color: red">Not found!</p>'
     }
