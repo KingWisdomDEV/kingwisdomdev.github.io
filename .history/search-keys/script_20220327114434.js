@@ -7564,7 +7564,6 @@ document.querySelector('#dbw').addEventListener("click", () => { currentBank = D
 let result = document.querySelector("#result")
 let input = document.querySelector("#keywords")
 
-// Get keywords from user input to search and display all values matched to screen
 const inputHandler = function (e) {
     let keywords = e.target.value;
     let searchResult = currentBank.filter((item) => item.includes(keywords.toLowerCase()))
@@ -7580,11 +7579,9 @@ const inputHandler = function (e) {
     })
 }
 
-// Reset result and value search to default then focus to input
 const handleSearchNew = function () {
     result.innerHTML = ""
-    input.value = ""
-    input.focus()
+    console.log(input.value)
 }
 
 input.addEventListener("input", inputHandler)

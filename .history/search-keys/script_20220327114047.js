@@ -7561,15 +7561,11 @@ document.querySelector('#mln').addEventListener("click", () => { currentBank = M
 document.querySelector('#mas').addEventListener("click", () => { currentBank = MAS_BANKS });
 document.querySelector('#dbw').addEventListener("click", () => { currentBank = DBW_BANKS });
 
-let result = document.querySelector("#result")
-let input = document.querySelector("#keywords")
-
-// Get keywords from user input to search and display all values matched to screen
 const inputHandler = function (e) {
     let keywords = e.target.value;
     let searchResult = currentBank.filter((item) => item.includes(keywords.toLowerCase()))
 
-    // Display to screen
+    let result = document.querySelector("#result")
     result.innerHTML = ""
     searchResult.forEach((item) => {
         const node = document.createElement("p");
@@ -7580,14 +7576,11 @@ const inputHandler = function (e) {
     })
 }
 
-// Reset result and value search to default then focus to input
 const handleSearchNew = function () {
-    result.innerHTML = ""
-    input.value = ""
-    input.focus()
+
 }
 
-input.addEventListener("input", inputHandler)
+document.querySelector("#keywords").addEventListener("input", inputHandler)
 document.querySelector("#btn-search-new").addEventListener("click", handleSearchNew)
 
 
