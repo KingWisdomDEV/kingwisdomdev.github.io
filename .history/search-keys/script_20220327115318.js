@@ -7580,8 +7580,7 @@ const inputHandler = function (e) {
             result.appendChild(node)
         })
 
-    } else {
-        result.innerHTML = '<p style="color: red">Not found!</p>'
+        result.textContent = "Not found!"
     }
 }
 
