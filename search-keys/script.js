@@ -1,4 +1,4 @@
-const PRX_BANKS = `Which of these characters can be included within the text in an XML document in literal form? | ; & : -
+const PRX_TEXT_BANKS = `Which of these characters can be included within the text in an XML document in literal form? | ; & : -
 XML parser checks for validity and well-formed ness? | True
 Which of the following is/are optional in the creation of an XML file? | Entities
 A descendant having a new namespace cannot override the namespace defined by the parrent element? | False
@@ -2915,7 +2915,7 @@ A textual object is a well formed XML document if | (i) Taken as a whole it matc
 The attribute used to define a new namespace is | Xmlns
 To match the root node in XMLT transform the syntax will be | <xsl:template match=" /">
 `.toLowerCase().split("\n")
-const MLN_BANKS = `Loại tiền nào  có chức năng cất trữ | Tiền vàng
+const MLN_TEXT_BANKS = `Loại tiền nào  có chức năng cất trữ | Tiền vàng
 Tư bản cố định và tư bản lưu động thuộc phạm trù tư bản nào? | Tư bản sản xuất.
 Khi xác định tính chất của phạm trù "Cái chung", triết học Mác- Lênin khẳng định cái chung là cái | Bản chất
 Chọn câu trả lời đúng theo tinh thần khoa học: Lý luận hình thái kinh tế - xã hội là cơ sở khoa học để: | Xác lập phương pháp luận chung nhất ở tầm "duy nhất khoa học" cho mọi quá trình nghiên cứu
@@ -3988,7 +3988,7 @@ Khoa học tự nhiên bắt đầu có sự phát triển mạnh mẽ vào th�
 Chế độ sở hữu của  nhà nước tư bản về kinh tế hình thành trong thời kỳ | Chủ nghĩa tư bản độc quyền nhà nước
 Chọn câu trả lời đúng theo quan điểm của chủ nghĩa duy vật lịch sử: Trong mối quan hệ giữa tồn tại xã hội và ý thức xã hội | Tồn tại xã hội quyết định ý thức xã hội
 `.toLowerCase().split("\n")
-const MAS_BANKS = `The time for a worker to assemble a component is normally distributed with mean 15 minutes and variance 4. Denote the mean assembly times of 16 day-shift workers and 9 night-shift workers by $$\overline{X}$$ and $$\overline{Y}$$, respectively. Assume that the assembly times of the workers are mutually independent. The distribution of $$\overline{X} $$- $$\overline{Y}$$ is st consists of 10 true/false questions. To pass the test a student must answer at least 4 questi b. normal with mean 0 and standard deviation 5/6.
+const MAS_TEXT_BANKS = `The time for a worker to assemble a component is normally distributed with mean 15 minutes and variance 4. Denote the mean assembly times of 16 day-shift workers and 9 night-shift workers by $$\overline{X}$$ and $$\overline{Y}$$, respectively. Assume that the assembly times of the workers are mutually independent. The distribution of $$\overline{X} $$- $$\overline{Y}$$ is st consists of 10 true/false questions. To pass the test a student must answer at least 4 questi b. normal with mean 0 and standard deviation 5/6.
 The manufacturer of a refrigerator system for beer kegs produces refrigerators that are supposed to maintain a true mean temperature, μ, of 45°F, ideal for a certain type of German pilsner. The owner of the brewery does not agree with the refrigerator manufacturer, and claims he can prove that the true mean temperature is incorrect. Assuming that a hypothesis test of the claim has been conducted and that the conclusion is to reject the null hypothesis, state the conclusion in nontechnical terms. | c. There is sufficient evidence to support the claim that the mean temperature is different from 45°F
 A bag of colored candies contains 20 red, 25 yellow, and 35 orange candies. An experiment consists of randomly choosing one candy from the bag and recording its color. What is the sample space for this experiment? | b. {red, yellow, orange}
 The probability is 2% that an electrical connector that is kept dry fails during the warranty period of a portable computer. If the connector is ever wet, the probability of a failure during the warranty period is 10%. If 80% of the connectors are kept dry and 20% are wet, what proportion of connectors fail during the warranty period? | c. 0.036
@@ -5824,7 +5824,7 @@ You are dealt two cards successively (without replacement) from a shuffled deck 
 The age distribution of students at a community college is given below. Age (years) Number of students
 Under 21 410 21-24 404 25-28 276 29-32 155 33-36 97 37-40 63 Over 40 86 A student from the community college is selected at random. Find the probability that the student is 25 years or over. Give your answer as a decimal rounded to three decimal places. | 0.454
 `.toLowerCase().split("\n")
-const DBW_BANKS = `Which of the following is NOT part of the disk access time? | Surface torsion time
+const DBW_TEXT_BANKS = `Which of the following is NOT part of the disk access time? | Surface torsion time
 Why is dynamic block assignment (indirect mapping) of the DBS page address space to disk blocks is to prefer a static assignment | Flexibility of disk block assignment
 Which one of the following sentences is correct when choosing an index? | Do not add secondary index to any attribute or relation that is frequently updated
 A secondary index may be used | For evaluation of a foreign key relationship
@@ -7552,6 +7552,2191 @@ What type of service in SQL Server Business Intelligent used for developing the 
 What if the DBMS does not create an index on the primary key? | Create a B-tree index on the full primary key
 what are the uses of metadata in data warehouse? | it provides information about the contents and structures to developers
 `.toLowerCase().split("\n")
+
+const PRX_QUIZLET_BANKS = `B  => QN=1 (2926) Parameter entities use ampersand (&) and semicolon (;) as delimiters?
+a. true
+b. false
+
+__A  => QN=2 (2933) An attribute without a prefix is in default namespace?
+a. true
+b. false
+
+__C  => QN=3 (2712) Which of the following is not an extension of XML?
+a. SMIL.
+b. MathML.
+c. SGML.
+d. VoiceXML.
+
+__BD  => QN=4 (2722) Which of the following are valid tags?
+a. <:FPT>
+b. <FPT_UNIV>
+c. <FPT UNIV>
+d. <_FPTUniv>
+
+__B  => QN=5 (2713) Which of the following XML attribute names is invalid?
+a. _notvalid
+b. I am not valid
+c. not-valid.1
+d. _not1valid2
+
+__B  => QN=6 (2934) A descendant having a new namespace cannot override the namespace defined by the parrent element?
+a. true
+b. false
+
+__C  => QN=7 (2723) Which of the following defines what is meant by a valid document?
+a. A document which meets the XML 1.0 specification
+b. A document which is well-formed
+c. A document which conforms to the rules of a DTD
+d. A document which starts with the declaration <?xml version="1.0"?>
+
+__D  => QN=8 (2724) Which of the following is/are optional in the creation of an XML file?
+a. The <?xml version="1.0"?> statement
+b. The root element
+c. The opening tag in an element
+d. Entities
+
+__A  => QN=9 (2928) XML parser checks for validity and well formed ness?
+a. true
+b. false
+
+__B  => QN=10 (2734) Namespaces are defined using
+a. DTDs
+b. xmlns:[prefix] attribute
+c. namespace attribute
+d. Scoping
+
+__B  => QN=11 (2936) Ability to create one's own tags is XML's greatest disadvantage?
+a. true
+b. false
+
+__B  => QN=12 (2938) External DTDs use the keyword URL to specify the location of the DTD?
+a. true
+b. false
+
+__B  => QN=13 (2730) An XML document, which conforms to its DTD, is called a:
+a. Well formed Document
+b. Valid Document
+c. Complete Document
+d. XSL Document
+
+__C  => QN=14 (2731) What does the keyword SYSTEM indicate in the following code?
+<?xml version ="1.0"?>
+<!DOCTYPE Book SYSTEM "book.dtd">
+a. It is a system generated DTD
+b. Book.dtd is an internal DTD
+c. Book.dtd is an external DTD
+d. Book is a system variable
+
+__B  => QN=15 (2716) Which of the following things is unspecified in the following line of code?
+<!DOCTYPE letter SYSTEM "letter.dtd">
+a. The name of the root element to which the DTD should be applied.
+b. The type of browser you are using.
+c. The DTD's file name.
+d. The fact that the DTD is declared in a separate file.
+
+__D  => QN=16 (2761) The xsl:template is used to
+a. define a set of nodes to be processed
+b. write or display in the result tree a text string representing the value of the element specified by the select attribute
+c. add literal text to the output
+d. define a template that can be applied to a node to produce desired output
+
+__C  => QN=17 (2771) See the snipset below and choose one answer:
+
+<xsl:value-of select="floor(-2.3)"/>
+a. -2
+b. -2.5
+c. -3
+
+__B  => QN=18 (2769) XSLT allows any kind of data to be tranformed into
+a. Node Set
+b. Boolean
+c. Number
+d. String
+
+__B  => QN=19 (2950) Document Object Model is platform-dependent?
+a. true
+b. false
+
+__A  => QN=20 (2719) Which DOMDocument method is used to create a new attribute?
+a. createAttribute
+b. load
+c. loadAttribute
+d. transformNode
+
+__A  => QN=21 (2954) Builds the document as a in-memory data structures?
+a. DOM
+b. SAX
+c. StAX
+d. Event-driven
+
+__B  => QN=22 (2752) Represents a collection of attribute nodes
+a. DOMDocument object
+b. XMLDOMNodeList object
+c. XMLDOMNode object
+d. XMLDOMNamedNodeMap
+
+__B  => QN=23 (2758) The ContentHandler class provides implementations for the core interface of SAX
+a. false
+b. true
+
+__A  => QN=24 (2923) The StAX cursor API represents
+a. a cursor with which you can walk an XML document from beginning to end.
+b. an XML document stream as a set of discrete event objects.
+c. an object - based tree in computer memory
+
+__A  => QN=25 (2959) SAX makes sequence of call to a handler function?
+a. true
+b. false
+
+__D  => QN=26 (2782) Consider the following script. What is wrong with the following code?
+1 <SCRIPT LANGUAGE = "JavaScript">
+2 var firstNumber,
+3 secondNumber;
+4 thirdNumber;
+5
+6 thirdNumber =
+7 parseInt( window.prompt( "Enter an integer", 0 ) );
+8 document.write( thirdNumber );
+9 </SCRIPT>
+a. thirdNumber in line 8 must be in quotes.
+b. The words Enter an integer in line 7 should not be in quotes.
+c. The word var must be placed before secondNumber in line 3.
+d. The word var must be placed before thirdNumber in line 4.
+
+__D  => QN=27 (2788) A procedure for solving a problem in terms of the actions to be executed and the order in which these
+actions are to be executed is called ________.
+a. program control
+b. a program structure
+c. a control structure
+d. an algorithm
+
+__C  => QN=28 (2875) Each object has ________ or data and ________ or behavior.
+a. properties, attributes
+b. attributes, properties
+c. attributes, methods
+d. methods, attributes
+
+__D  => QN=29 (2827) What would the browser display if it executed the following script?
+<SCRIPT LANGUAGE = "JavaScript">
+ var total = 0;
+ nextLoop:
+ for ( var i = 0; i < 5; ++i ) {
+ for ( var j = 0; j < 2 ; ++j ) {
+ if ( i < 2 )
+ continue nextLoop;
+ total++;
+ }
+ total++;
+ }
+ total++;
+ document.writeln( total );
+</SCRIPT>
+a. 7
+b. 8
+c. 9
+d. 10
+
+__C  => QN=30 (2807) The word top in the term top-down stepwise refinement refers to which of the following?
+a. the first statement that appears in the program
+b. the first statement that appears in the algorithm
+c. the single statement that completely represents the program
+d. the entire algorithm
+
+__A  => QN=31 (2838) Function definitions often contain ________ which are considered to be local variables and correspond with the arguments in the function call.
+a. parameters
+b. static variables
+c. register variabless
+d. constant variables
+
+__C  => QN=32 (2809) What is the value of i after the following statements?
+i = 2;
+i++;
+a. 0
+b. 2
+c. 3
+d. 4
+
+__C  => QN=33 (2797) Which of the following is not a JavaScript keyword?
+a. break
+b. delete
+c. sub
+d. function
+
+__A  => QN=34 (2879) What does the value string contain after the following code is executed?
+var string = "Good luck on the test";
+string = string.split( " " );
+a. Good luck on the test
+b. Good.luck.on.the.test
+c. Good,luck,on,the,test
+d. Nothing, the string conversion will generate an error.
+
+__A  => QN=35 (2861) What would the browser display if this script was executed?
+<SCRIPT LANGUAGE = "JavaScript">
+ var c = new Array(8);
+ for( var i = 0; i < 8; i++ )
+ c[i] = i;
+ document.write(c[8]);
+</SCRIPT>
+a. undefined
+b. 0
+c. 7
+d. 8
+
+__C  => QN=36 (2837) Functions are invoked by writing the name of the function, followed by the function's ________ in closed parenthesis.
+a. name
+b. static variables
+c. arguments
+d. constant variables
+
+__A  => QN=37 (2866) Call-by- ________ is the method of passing a copy of the argument's value to a function.
+a. value
+b. parameters
+c. memory
+d. reference
+
+__D  => QN=38 (2865) In JavaScript, all objects and Arrays are passed to functions by ________.
+a. value
+b. parameters
+c. memory
+d. reference
+
+__C  => QN=39 (2886) Which of the following methods does the JavaScript Boolean object not possess?
+a. toString
+b. valueOf
+c. toInt
+d. The JavaScript Boolean object does not possess publicly accessible methods.
+
+__C  => QN=40 (2811) Which of the following is not required for counter-controlled repetition?
+a. final value
+b. initial value
+c. sentinel
+d. increment
+
+__A  => QN=41 (2826) What would the browser display if it executed the following script?
+<SCRIPT LANGUAGE = "JavaScript">
+ var total = 0;
+ stop: { // labeled compound statement
+ for ( var i = 0; i < 5; ++i ) {
+ for ( var j = 0; j < 2 ; ++j ) {
+ if ( i == 2 )
+ break stop;
+ total++;
+ }
+ total++;
+ }
+ total++;
+ }
+ total++;
+ document.writeln( total );
+</SCRIPT>
+a. 7
+b. 8
+c. 9
+d. 10
+
+__D  => QN=42 (2910) Which of the following is the proper method to apply the fliph filter to the following H1 element?
+<H1 ID = "test">This is a test</H1>
+a. test.filters.style = fliph;
+b. test.filters( fliph );
+c. test.filters( "fliph" );
+d. The filter cannot be applied to this element.
+
+__C  => QN=43 (2789) ________ is an artificial and informal language that helps programmers develop algorithms.
+a. JavaScript
+b. ECMAScript
+c. Pseudocode
+d. AlgorithmCode
+
+__C  => QN=44 (2863) Which of the following is an illegal array initialization statement?
+a. var n = [ 10, 20, 30, 40, 50 ];
+b. var n = new Array( 10, 20, 30, 40, 50 );
+c. var n = new Array( 5 );
+n = [ 10, 20, 30, 40, 50 ];
+d. var n = new Array( 5 );
+for ( var i = 1; i <= 5; i++ )
+n[ i ] = i * 10 ;
+
+__B  => QN=45 (2870) What will the browser display if the following script is executed?
+< SCRIPT LANGUAGE = "JavaScript" >
+ var theArray = [ 1, 2, 3, 4, 5, 6, 7, 8, 9 ];
+ modifyArray( theArray[ 3 ] );
+ document.write( theArray.join( " " ) );
+ function modifyArray( i ) {
+ i = 11;
+ }
+</SCRIPT>
+a. Nothing, the browser will generate an error.
+b. 1 2 3 4 5 6 7 8 9
+c. 1 2 11 4 5 6 7 8 9
+d. 1 2 3 11 5 6 7 8 9
+
+__C  => QN=46 (2779) Consider the following HTML code.
+<HTML>
+<SCRIPT LANGUAGE = "JavaScript">
+<!--
+document.writeln("Hello World");
+// -->
+</SCRIPT>
+</HTML>
+
+What would a browser capable of scripting display when executing this code?
+a. document.writeln("Hello World");
+b. nothing
+c. Hello World
+d. <HTML>
+<SCRIPT LANGUAGE = "JavaScript">
+<!--
+document.writeln("Hello World");
+// -->
+</SCRIPT>
+</HTML>
+
+__A  => QN=47 (2810) What is the value of i after the following statements?
+i = 2;
+i- -;
+i- -;
+a. 0
+b. 1
+c. -2
+d. -4
+
+__B  => QN=48 (2832) The best way to develop and maintain a large program is to construct it from small, simple pieces called ________.
+a. scripts
+b. modules
+c. scriptlets
+d. objects
+
+__C  => QN=49 (2902) What is the significance of the second function argument in the following line?
+window.setInterval( "run()", 100 );
+a. The value sets how many times to call the function specified in the first argument.
+b. The value sets how long the function is run for.
+c. The value sets how often to run the function.
+d. The value sets the time to wait before calling the function once.
+
+__A  => QN=50 (2794) Which of the following flowchart symbols indicates that a decision is to be made?
+a. diamond
+b. oval/circle
+c. rectangle
+d. flowline
+
+__A  => 1. What is XML?
+a. Extensible Markup Language
+b. Extra Modern Link 
+c. Example markup Language 
+d. X-Markup Language
+
+__C  => 2. Which Statement about xml is true? 
+a. Elements may have multiple attribute with the same name 
+b. Quoting attribute is optional.
+c. Elements may nest but not overlap 
+d. All of the above.
+
+__D  => 3. What is the correct declaration syntax for the version of an XML document?
+a. </xml version="1.0"/> 
+b. <? xml version="1.0"/?> 
+c. <xml version="1.0"> 
+d. <?xml version="1.0" ?>
+e. none of the above
+
+__C  => 4. How is an empty XML element defined?
+a. <sample></sample> 
+b. <sample/>
+c. All of the above. 
+d. None of the above.
+
+__C  => 5. Which syntax is used to insert comments into an XML document?
+a. <comment>This is a comment</comment> 
+b. <?-This is a comment->
+c. <!-This is a comment-> 
+d. All of the above.
+
+__B  => 6. What does DTD stand for?
+a. Dynamic Type Definition. 
+b. Document Type Definition. 
+c. Do The Dance. 
+d. Direct Type Definition.
+
+__C  => 7. Which statement is true? 
+a. All XML documents must have a DTD. 
+b. All XML elements must be lower case.
+c. All XML elements must be properly closed. 
+d. All of the above.
+
+__D  => 8. Which statement is true? 
+a. XML tags are case sensitive. 
+b. XML documents must have a root tag. 
+c. XML elements must be properly closed.
+d. All of the above.
+
+__D  => 9. Which is not a correct name for an XML documents?
+a. <Note> 
+b. <h1>
+c. <1dollar> 
+d. All 3 names are incorrect.
+
+__C  => 10. Which is not a correct name for an XML element?
+a. <age> 
+b. <NAME> 
+c. <first name> 
+d. All three names are incorrect.
+
+__D  => 11. What does XSL stand for?
+a. eXtra Style Language 
+b. eXpandable Style Language
+c. eXtensible Style Listing 
+d. eXtensible Stylesheet Language
+
+__B  => 12. What is a correct way of referring to a stylesheet called "mystyle.xsl"?
+a. <link type="text/xsl" href="mystyle.xsl" /> 
+b. <?xml-stylesheet type="text/xsl" href="mystyle.xsl"?> 
+c. <stylesheet type="text/xsl" href="mystyle.xsl" /> 
+d. All of the above
+
+__B  => 13. For the XML parser to ignore a certain section of your XML document, which syntax is correct?
+a. <CDATA> Text to be ignored </CDATA> 
+b. <![CDATA[ Text to be ignored ]]> 
+c. <PCDATA> Text to be ignored </PCDATA> 
+d. <xml:CDATA[ Text to be ignored ]>
+
+__C  => 14. XML is a _______ Recommendation 
+a. Microsoft 
+b. Sun 
+c. W3C 
+d. None of these
+
+__A  => 15. XML is 
+a. Free and Extensible 
+b. Not Extensible. 
+c. A stylesheet 
+d. None of these
+
+__B  => 16. XML is a Complement to
+a. XHTML. 
+b. HTML 
+c. Xquery 
+d. Xpath
+
+__A  => 17. XML Schema is designed to
+a. be self-descriptive 
+b. display only useful data 
+c. carrying request 
+d. giving response.
+
+__A  => 18. XML uses
+a. an XML Schema to describe the data 
+b. an XHTML Schema to describe the data 
+c. an XPath to describe the data 
+d. an XQuerya to describe the data
+
+__B  => 19. XML Can be used to 
+a. Replace old language. 
+b. Create new language. 
+c. All of the above 
+d. None of these.
+
+__B  => 20. XML is the mother of
+a. HTML. 
+b. WAP and WML 
+c. All of the above 
+d. None of these.
+
+__B  => 1. XSL stands for:
+a. Xtendable Stylesheet Language 
+b. EXtensible Stylesheet Language 
+c. EXtensible Style Language 
+d. EXtendable Style Language
+
+__D  => 2. The World Wide Web Consortium (W3C) started to develop XSL because there was a need for:
+a. ASP-based Stylesheet Language 
+b. XSl-based Stylesheet Language 
+c. HTML-based Stylesheet Language 
+d. XML-based Stylesheet Language
+
+__A  => 3. XSL ________ how the XML document should be displayed!
+a. describes 
+b. shows 
+c. displays 
+d. prints
+
+__C  => 4. XSL consists of three parts. Which are?
+a. XSLT, Xpath, HTML 
+b. XSLT, Xpath, ASP 
+c. XSLT, Xpath, XSL-FO 
+d. XSLT, Xpath, XHTML
+
+__B  => 5. XSL processors do parses the XML source and tries to find out the matching _______ rule.
+a. file 
+b. template 
+c. page 
+d. directory
+
+__D  => 6. _____ in XSL do allow the element to be processed for multiple times, each time producing different result.
+a. levels 
+b. pages 
+c. template 
+d. Modes
+
+__B  => 7. Templates are been ordered according to their ________ which can be specified with the priority attributte.
+a. levels 
+b. priority 
+c. size 
+d. date
+
+__A  => 8. An attributes can be accessed in the way similar to the elements. Notice ____ in front of the attribute name.
+a. @ 
+b. $ 
+c. % 
+d. &
+
+__D  => 9. Which of these axes which are used in XSL?
+a. child 
+b. ancestor 
+c. descendant-or-self 
+d. grand-parent
+
+__B  => 10. A _____ instruction do contains the template, which is been applied to each node selected with the select attribute.
+a. xsl:for 
+b. xsl:for-each 
+c. xsl:do-while 
+d. xsl:while
+
+__A  => 11. The xsl:element generates the elements in at time of processing.
+a. True 
+b. False 
+c. Not always 
+d. None of these
+
+__C  => 12. The xsl:attribute do generates the elements in the time of processing.
+a. False 
+b. Not always 
+c. True 
+d. None of these
+
+__B  => 13. The Copy and _______ constructs are used for the nodes copying.
+a. copy-by 
+b. copy-of 
+c. copy-for 
+d. copy-with
+
+__D  => 14. The ____ instruction do enables the conditional processing.
+a. xsl:do-while 
+b. xsl:while 
+c. xsl:ifelse 
+d. xsl:if
+
+__B  => 15. The xsl:choose element is used for the purpose of selection between the several possibilities.
+a. Not always 
+b. True 
+c. False 
+d. None of these
+
+__A  => 16. An xsl:numbers do inserts a formated numbers into the ______ .
+a. output 
+b. input 
+c. file 
+d. browser
+
+__D  => 17. Stylesheet can do have ____ variables with the same name.
+a. one 
+b. less than three 
+c. few 
+d. several
+
+__B  => 18. Value of the local variable is bounded to which element.
+a. xsl:where 
+b. xsl:when 
+c. xsl:than 
+d. xsl:which
+
+__D  => 19. A _____ function returns number of nodes present in an argument node-set.
+a. number 
+b. nodes 
+c. counter 
+d. count
+
+__A  => 20. "Position" function do returns the number equal to context position
+a. True 
+b. False 
+c. Can't say 
+d. None of these
+
+__B  => 1. DTD is:
+a. Data Type Definition 
+b. Document Type Definition 
+c. Definition Type Document 
+d. Definition Type Data
+
+__A  => 2. It defines the document structure with a list of _______.
+a. legal elements 
+b. elements 
+c. bad elements 
+d. None of these
+
+__B  => 3. DTD defines the document structure with a list of legal elements.
+a. False 
+b. True 
+c. Not always 
+d. None of these
+
+__D  => 4. A DTD can be declared inline in your XML document, or as an
+a. internal reference 
+b. reference 
+c. Both 1 and 2 
+d. external reference
+
+__C  => 5. If the DTD is included in your XML source file, it should be wrapped in a DOCTYPE definition with the following syntax:
+a. <DOCTYPE root-element [element-declarations]> 
+b. <DOCTYPE root-element (element-declarations)> 
+c. <!DOCTYPE root-element [element-declarations]> 
+d. <!DOCTYPE [element-declarations]>
+
+__C  => 6. You can also use a DTD to verify your own
+a. control 
+b. description 
+c. data 
+d. None of these
+
+__A  => 7. If the DTD is external to your XML source file, it should be wrapped in a DOCTYPE definition with the following syntax:
+a. <!DOCTYPE root-element SYSTEM "filename"> 
+b. <DOCTYPE root-element SYSTEM "filename"> 
+c. <!DOCTYPE root-element SYSTEM 'filename'> 
+d. <!DOCTYPE SYSTEM "filename">
+
+__C  => 8. With DTD, each of your XML files can carry a ________ of its own format with it.
+a. data 
+b. control 
+c. description 
+d. data and control
+
+__B  => 9. Elements are the main building blocks of both
+a. XHTML and HTML documents 
+b. XML and HTML documents 
+c. XSL and XHTML documents 
+d. None of these
+
+__A  => 10. Attributes provide _______ about elements.
+a. extra information 
+b. information 
+c. more data 
+d. None of these
+
+__D  => 11. Entities are variables used to define
+a. control 
+b. database 
+c. structure 
+d. common text
+
+__B  => 12. Entities are expanded when a document is parsed by an XML
+a. compiler 
+b. parser 
+c. debugger 
+d. linker
+
+__D  => 13. Which of these characters cannot be used as entity references in XML?
+a. < 
+b. & 
+c. " 
+d. $
+
+__C  => 14. PCDATA means:
+a. private character data 
+b. public character data 
+c. parsed character data 
+d. parsed and compiled data
+
+__A  => 15. CDATA is text that _____ be parsed by a parser.
+a. will not 
+b. will 
+c. sometimes will 
+d. sometimes will not
+
+__B  => 16. CDATA means:
+a. common data 
+b. character data 
+c. computer data 
+d. None of these
+
+__A  => 17. An element declaration has the following syntax:
+a. <!ELEMENT element-name category> 
+b. <ELEMENT element-name category> 
+c. <!ELE element-name category> 
+d. <!element-name ELEMENT category>
+
+__C  => 18. Elements with only character data are declared with
+a. #CHAR 
+b. #TEXT 
+c. #PCDATA 
+d. #CDATA
+
+__B  => 19. In a DTD, Attributes are declared with an _______ declaration
+a. ATTRIBUTELIST 
+b. ATTLIST 
+c. ALIST 
+d. All the above
+
+__A  => 20. ________ can validate your XML against a DTD.
+a. Internet Explorer 5.0 
+b. Internet Explorer 6.0 
+c. Opera 
+d. Mozilla
+
+__B  => 1. Schema is an _____ based alternative
+a. XHTML 
+b. XML 
+c. XSL 
+d. XSLT
+
+__A  => 2. An XML Schema describes the structure of an XML _______ .
+a. document 
+b. file 
+c. page 
+d. None of these
+
+__C  => 3. XSD is:
+a. XHTML Schema Definition 
+b. XSL Schema Definition 
+c. XML Schema Definition 
+d. XSLT Schema Definition
+
+__B  => 4. Which of these are not supported by XML Schema?
+a. defines elements that can appear in a document 
+b. defines which files are child elements 
+c. defines attributes that can appear in a document 
+d. defines which elements are child elements
+
+__A  => 5. XML Schemas are the Successors of
+a. DTD 
+b. XML 
+c. XSL 
+d. XSLT
+
+__D  => 6. XML Schema became a W3C Recommendation
+a. 03. May 2001 
+b. 02. May 2000 
+c. 02. May 2002 
+d. 02. May 2001
+
+__B  => 7. One of the greatest strength of XML Schemas is the support for
+a. images 
+b. data types 
+c. graphics 
+d. functions
+
+__A  => 8. With XML Schemas, the senders can ________ the data in a way that the receiver will understand.
+a. describes 
+b. develops 
+c. designs 
+d. inform
+
+__D  => 9. With an extensible Schema definition you cannot:
+a. Reuse your Schema in other Schemas 
+b. Create your own data types derived from the standard types 
+c. Reference multiple schemas in the same document 
+d. All the above
+
+__B  => 10. A simple element is an XML element that can contain only
+a. numbers 
+b. text 
+c. images 
+d. All the above
+
+__D  => 11. Which of these are not kinds of complex elements?
+a. empty elements 
+b. elements that contain only other elements 
+c. elements that contain only text 
+d. elements that contain only numbers
+
+__B  => 12. If an element has attributes, it is considered to be of complex types.
+a. False 
+b. True 
+c. Not always 
+d. None of these
+
+__A  => 13. The syntax for defining an attribute is:
+a. <xs:attribute name="xxx" type="yyy"/> 
+b. <xs:attribute name="xxx" /> 
+c. <attribute name="xxx" type="yyy"/> 
+d. <xs:attribute name=xxx type=yyy/>
+
+__C  => 14. A default value is automatically assigned to the attributes when no other value is specified.
+a. False 
+b. Not always 
+c. True 
+d. None of these
+
+__B  => 15. Attributes are by default:
+a. required 
+b. optional 
+c. fixed 
+d. default
+
+__D  => 16. If an XML element is of type "xs:date" and contain a string like "Hello World", the element will
+a. validate 
+b. sometime it will validate 
+c. sometime it will not validate 
+d. not validate
+
+__C  => 17. Restrictions on XML elements are called
+a. cards 
+b. decks 
+c. facets 
+d. faces
+
+__B  => 18. To specify how whitespace characters should be handled, we would use the whiteSpace
+a. functions 
+b. constraints 
+c. values 
+d. None of these
+
+__A  => 19. An empty complex element cannot have any contents, only
+a. attributes 
+b. only one content 
+c. values 
+d. None of these
+
+__D  => 20. How many indicators are present in Schema?
+a. 4 
+b. 5 
+c. 6 
+d. 7
+
+__C  => 1. XML DOM is:
+a. XML Data Object Model 
+b. XML Document Object Module 
+c. XML Document Object Model 
+d. XML Data Object Module
+
+__B  => 2. XML DOM defines a standard way for
+a. only accessing the XML documents 
+b. accessing and manipulating XML documents 
+c. only manipulating XML documents 
+d. None of these
+
+__B  => 3. The DOM is separated into how many different parts?
+a. 2 
+b. 3 
+c. 4 
+d. 5
+
+__A  => 4. XML DOM - defines a standard set of objects for XML documents only.
+a. True 
+b. False 
+c. Not always 
+d. Can't say
+
+__B  => 5. The XML DOM is language- and platform
+a. dependent 
+b. independent 
+c. Not always dependent 
+d. None of these
+
+__D  => 6. The XML DOM define a standard set of ______ for XML
+a. classes 
+b. functions 
+c. files 
+d. objects
+
+__C  => 7. The DOM treats the XML document as
+a. table-structure 
+b. file-structure 
+c. tree-structure 
+d. All the above
+
+__A  => 8. Each attribute,element and text in the XML document represents a
+a. node in the tree 
+b. stumb in a tree 
+c. leaf in a tree 
+d. flowers in a tree
+
+__C  => 9. Both Mozilla and Internet Explorer support W3C's DOM specification.
+a. False 
+b. Not always true 
+c. True 
+d. None of these
+
+__B  => 10. There are differences between Internet Explorer's DOM and Mozilla's DOM. The most important difference is that how they handle
+a. text nodes 
+b. white-space text nodes 
+c. nodes 
+d. None of these
+
+__B  => 11. We can navigate between nodes with the use of their ________ to each other.
+a. degree 
+b. relationship 
+c. links 
+d. levels
+
+__D  => 12. Which of these are not the valid XML DOM relationships?
+a. parentNode 
+b. previousSibling 
+c. lastChild 
+d. nextNode
+
+__A  => 13. Internet Explorer will skip white-space text node that are generated between nodes (e.g. new-line characters), while Mozilla will not.
+a. True 
+b. False 
+c. Not always true 
+d. None of these
+
+__C  => 14. The ________ method returns a node list that contains all elements with the specified tag name in the same order as they appear in the source document.
+a. getElementsByName() 
+b. elementsByTagname() 
+c. getElementsByTagname() 
+d. byTagname()
+
+__B  => 15. The ________ method can be used to display the value of the specified attribute.
+a. attribute() 
+b. getAttribute() 
+c. showAttribute() 
+d. printAttribute()
+
+__A  => 16. The ______ method can be used to remove the specified node.
+a. removeChild() 
+b. deleteChild() 
+c. reChild() 
+d. dropChild()
+
+__C  => 17. How many parameters are there for deleteData() method ? (st art, length)
+a. 0 
+b. 1 
+c. 2 
+d. 3
+
+__B  => 18. The _____ method creates the new element node.
+a. buildElement() 
+b. createElement() 
+c. Element() 
+d. None of these
+
+__D  => 19. How many parameters are there for replaceData() method ?
+a. 2 
+b. 4 
+c. 5 
+d. 3 (start, length,string)
+
+__C  => 20. The _______ method is used to remove the attribute node.
+a. removeAttNode() 
+b. rmAtNode() 
+c. removeAttributeNode() 
+d. None of these
+
+__B  => Q.1) XML cannot be used with HTML. 
+ A. True 
+ B. False
+
+__D  => Q.2) XML is more advantageous to use than a fixed-length database system because 
+ A. Todays computers are faster than they have been in years past. 
+ B. It saves money by reducing IT expenses. 
+ C. Those without an IT background can easily understand XML. 
+ D. All of the above.
+
+__D  => Q.3) SAX is 
+ A. A fixed-length database system 
+ B. An XML database system 
+ C. A variable-length database system 
+ D. An XML parser
+
+__B  => Q.4) PCDATA is 
+ A. An XML element that contains other XML elements 
+ B. An XML element that contains parsed character data 
+ C. An XML element thats used to define data for use only on a PC 
+ D. None of the above
+
+__C  => Q.5) The Document Object Model 
+ A. Defines the layout of an XML document 
+ B. Defines XML elements that are used in an XML document 
+ C. Is an XML parser 
+ D. Is an XML document that contains labels, buttons, and other
+Graphical User Interface objects
+
+__B  => Q.6) You must use a parser to read an XML document. 
+ A. True 
+ B. False
+
+__B  => Q.7) XML stores data in fixed lengths. 
+ A. True 
+ B. False
+
+__A  => Q.8) XML is a subset of 
+ A. SGML
+ B. HTML 
+ C. MGL 
+ D. None of the above
+
+__A  => Q.9) XML is used for web services. 
+ A. True 
+ B. False
+
+__A  => Q.10) An XML element can contain other XML elements. 
+ A. True 
+ B. False
+
+__B  => Q.11) A parent element cannot contain another parent element. 
+ A. True 
+ B. False
+
+__A  => Q.12) An attribute contains a 
+ A. Name/value pair 
+ B. Value/name pair 
+ C. The data section of the XML document 
+ D. None of the above
+
+__C  => Q.13) The asterisk at the end of an element name in a DTD means its 
+ A. The end of the list of elements 
+ B. The beginning of the list of elements 
+ C. The DTD contains zero to many of this element
+ D. The DTD contains this element and fewer elements
+
+__B  => Q.14) What does the parser do with the CDATA section of an XML document? 
+ A. Ignores it 
+ B. Passes the data to the application that uses the XML document
+without any translation or interpretation
+
+ C. Deletes the data before passing the XML document to the
+application that uses the XML document
+ D. None of the above
+
+__C  => Q.15) The DOCTYPE is used to 
+ A. Create the CDATA section of an XML document 
+ B. Create an XML document 
+ C. Identify the DTD for an XML document 
+ D. Identify the parser that is used to parse the XML document
+
+__A  => Q.16) A child element can be a parent element. 
+ A. True 
+ B. False
+
+__B  => Q.17) All XML markup tags must have an attribute. 
+ A. True 
+ B. False
+
+__B  => Q.18) Special symbols can be inserted into an XML document using 
+ A. CDATA 
+ B. A UNICODE value 
+ C. An attribute 
+ D. A comment
+
+__B  => Q.19) You avoid conflict between an XML special character and information in an XML document by using a comment. 
+ A. True 
+ B. False
+
+__B  => Q.20) A processing command is removed from an XML document before the XML document is passed along to the application that uses the XML document. 
+ A. True 
+ B. False
+
+__B  => Q.21) An XML document must contain all elements declared in the DTD. 
+ A. True 
+ B. False
+
+__C  => Q.22) #PCDATA refers to 
+ A. Parsed charter data 
+ B. Program character data 
+ C. Parsed character data 
+ D. None of the above
+
+__B  => Q.23) A question mark following the name of a child name in the declaration of a parent element means 
+ A. The child element is required. 
+ B. The child element is optional. 
+ C. The name of the child element is unknown. 
+ D. One occurrence of the child element is required.
+
+__A  => Q.24) What is address, phone in the declaration ? 
+ A. A group 
+ B. The value of address and phone is concatenated. 
+ C. The value of email is concatenated to the value of address and phone. 
+ D. The value of email is concatenated to the value of phone.
+
+__C  => Q.25) What is this: ? 
+ A. A reference to the internal DTD called phone.dtd 
+ B. A reference to the phone system 
+ C. References a shared DTD 
+ D. References the phone.dtd XML document
+
+__A  => Q.26) An image tag is an example of an EMPTY element. 
+ A. True 
+ B. False
+
+__B  => Q.27) All XML markup tags must have an attribute. 
+ A. True 
+ B. False
+
+__D  => Q.28) An element name can begin with 
+ A. A colon 
+ B. An underscore 
+ C. Letters 
+ D. All of the above
+
+__B  => Q.29) You cannot set valid options when declaring an attribute. 
+ A. True 
+ B. False
+
+__B  => Q.30) #REQUIRED specifies that an element is required in all XML documents that use the DTD. 
+ A. True
+ B. False
+
+__A  => Q.31) An XML schema is used to define a complex type. 
+ A. True
+ B. False
+
+__C  => Q.32) type=integer means 
+ A. The content of an element is the word integer. 
+ B. All types except integers can be used in the corresponding element. 
+ C. Only integers can be used in the corresponding element. 
+ D. None of the above.
+
+__C  => Q.33) xmlns:xs=fihttp://www.w3.org/2001/XMLSchemafl is used to 
+ A. Identify ownership of the XML schema 
+ B. Identify ownership of the XML document 
+ C. Identify the XML schema specifications used in the XML schema 
+ D. Identify that this is an XML schema
+
+__A  => Q.34) The xs:sequence tag 
+ A. Specifies the sequence in which elements must appear in an XML document 
+ B. Specifies the sequence in which elements must appear in an XML schema 
+ C. Specifies the sequence in which attributes must appear in an XML document 
+ D. Specifies the sequence in which attributes must appear in an XML schema
+
+__D  => Q.35) xsi:schemaLocation=ficustomers.xsdfl is used to 
+ A. Identify the owner of the XML document 
+ B. Identify the owner of the XML schema 
+ C. Identify the location of the XML document 
+ D. Identify the location of the XML schema
+
+__A  => Q.36) You can require a specific value for an attribute by setting the value for fixed. 
+ A. True 
+ B. False
+
+__A  => Q.37) A regular expression can be used to specify complex restrictions for the content of an element. 
+ A. True 
+ B. False
+
+__A  => Q.38) You can specify a series of valid values for an element by using which of the following in a regular expression? 
+ A. |
+ B. OR 
+ C. or 
+ D. +
+
+__A  => Q.39) A facet is a valid value that can be assigned to an attribute. 
+ A. True
+ B. False
+
+__A  => Q.40) The xs:enumeration tag is used to define a valid value for an attribute. 
+ A. True 
+ B. False
+
+__B  => Q.41) XML can only be transformed into HTML or XHTML. 
+ A. True 
+ B. False
+
+__A  => Q.42) Instructions for transforming an XML document are contained in the 
+ A. XSL stylesheet 
+ B. CSS stylesheet 
+ C. XSLT stylesheet 
+ D. None of the above
+
+__C  => Q.43) The statement states 
+ A. For each customer element of the result document 
+ B. For each customers element of the result document 
+ C. For each customer element of the source document thats a child of customers 
+ D. For each customers element of the source document
+
+__B  => Q.44) The <xsl:valueof> element is used to 
+ A. Extract text from the result document 
+ B. Extract text from the source document 
+ C. Place text into the source document 
+ D. None of the above
+
+__B  => Q.45) The statement is used to 
+ A. Select the Jim element 
+ B. Select the id attribute 
+ C. Select the Jim attribute 
+ D. Select the id attribute if the value is Jim
+
+__B  => Q.46) The element contains only XSL elements. 
+ A. True 
+ B. False
+
+__B  => Q.47) The element instructs the CSS to evaluate a condition before extracting an element. 
+ A. True 
+ B. False
+
+__A  => Q.48) In order to sort numeric values, you must set the to 
+ A. data-type=finumberfl 
+ B. data-type=fivaluefl 
+ C. data-type=fidecimalfl 
+ D. None of the above
+
+__B  => Q.49) You can repeat lines of code within the XSL stylesheet by defining an apply-template. 
+ A. True 
+ B. False
+
+__B  => Q.50) Only a browser can access a result document. 
+ A. True 
+ B. False
+
+__B  => Q.51) The SAX parser is able to transverse an XML document. 
+ A. True 
+ B. False
+
+__D  => Q.52) The SAX parser creates a node by using 
+ A. createElement() 
+ B. createTextNode() 
+ C. createComment() 
+ D. None of the above
+
+__C  => Q.53) The SAX parser reacts to a new element by using 
+ A. endElement() 
+ B. characters() 
+ C. startElement() 
+ D. startDocument()
+
+__D  => Q.54) Which of the following is represented as a node in the tree a DOM parser creates? 
+ A. CDATA sections 
+ B. Comments 
+ C. Elements 
+ D. All of the above
+
+__D  => Q.55) A Java transformer can use 
+ A. Its own stylesheet 
+ B. DTD 
+ C. XSLT 
+ D. All of the above
+
+__B  => Q.56) The same version of a DOM parser must be used on all computers. 
+ A. True 
+ B. False
+
+__A  => Q.57) A Stream is a series of characters that can be the results of transformation performed by a Java transformer. 
+ A. True
+ B. False
+
+__A  => Q.58) A SAX parser 
+ A. Reads a block of an XML document at a time 
+ B. Organizes the XML document into a tree 
+ C. Enables you to correct the contents of an XML document 
+ D. None of the above
+
+__A  => Q.59) You should use a SAX parser if a DOM parser is unable to load the XML document into memory. 
+ A. True 
+ B. False
+
+__A  => Q.60) The appendChild() method links a node to the current node. 
+ A. True 
+ B. False
+
+__B  => Q.61) Saxon-B is the only software that can process an XQuery. 
+ A. True 
+ B. False
+
+__C  => Q.62) What kind of clause is used to specify the filter criteria? 
+ A. SQL clause 
+ B. Declarative clause 
+ C. where clause
+ D. None of the above
+
+__D  => Q.63) $x is an 
+ A. Element 
+ B. Attribute 
+ C. XQuery 
+ D. Variable
+
+__C  => Q.64) Order by 
+ A. Places all elements in the XML document in ascending order 
+ B. Places all elements in the XML document in descending order 
+ C. Places all return values in ascending order by default 
+ D. Places all return values in descending order by default
+
+__C  => Q.65) The where clause 
+ A. Locates the XML document 
+ B. Locates the output file 
+ C. Specifies the filter criteria
+ D. All of the above
+
+__B  => Q.66) All functions used by an XQuery are built-in functions. 
+ A. True 
+ B. False
+
+__B  => Q.67) The data() function returns the text value of a variable. 
+ A. True 
+ B. False
+
+__A  => Q.68) A constructor 
+ A. Converts information contained in an XML document to another data type
+ B. Is the first instance of a function 
+ C. Is the first instance of a variable 
+ D. None of the above
+
+__A  => Q.69) The doc() function retrieves an XML document. 
+ A. True 
+ B. False
+
+__B  => Q.70) The round-half-to-even() function rounds half the value returned by a function. 
+ A. True 
+ B. False
+
+__B  => Q.71) MSXML can only be used with JavaScript. 
+ A. True 
+ B. False
+
+__B  => Q.72) The async = false means 
+ A. Statements will continue to execute as the XML document is being loaded. 
+ B. Statements will not execute until the XML document is being loaded. 
+ C. The XML document is synchronized to the HTML page. 
+ D. None of the above.
+
+__A  => Q.73) firstChild is a 
+ A. Property containing a reference to the first child of an element 
+ B. Method that makes the current node the first child 
+ C. Method that substitutes the first node for the last node 
+ D. Method that substitutes the last node for the first node
+
+__B  => Q.74) createElement(fititlefl) means 
+ A. Create a new HTML element 
+ B. Create a new XML element 
+ C. Create a title for a new HTML element 
+ D. Create an attribute called title for the current XML element
+
+__B  => Q.75) fi/catalog/cd[@upc=fi + upc + fi] means 
+ A. Find the text that matches the value of the upc variable in the cd element 
+ B. Find the upc attribute that matches the value of the upc variable
+in the cd element
+
+ C. Find the upc element that matches the UPC in the cd element 
+ D. All of the above
+
+__A  => Q.76) An XML document can be validated against a DTD by calling the validate() method. 
+ A. True 
+ B. False
+
+__A  => Q.77) The appendChild() appends a node to the end of an XML document. 
+ A. True 
+ B. False
+
+__A  => Q.78) The version is specified in ActiveXObject(fiMSXML2.DOMDocument.4.0fl) because 
+ A. Versions are designed to coexist with previous versions. 
+ B. Only the version specified can be used with the XML document. 
+ C. It identifies potential conflicts in versions. 
+ D. None of the above.
+
+__A  => Q.79) The loadXML() method is used when the document is passed as a string. 
+ A. True 
+ B. False
+
+__A  => Q.80) getAttribute(fiupcfl) retrieves the value of the upc attribute. 
+ A. True 
+ B. False
+
+__a  => Streaming pull parsing refers to a programming model in which
+[A]
+a client application calls methods on an XML parsing library when it needs to interact with an XML infoset
+[B]
+an XML parser sends XML data to the client as the parser encounters elements in an XML infoset
+[C]
+involves creating in-memory objects representing an entire document tree and the complete infoset state for an XML document.
+
+__b  => Method getElementsByTagName return a node of list which will be stored as
+[A]
+DOMDocument object
+[B]
+XMLDOMNodeList object
+[C]
+XMLDOMNode object
+[D]
+XMLDOMNamedNodeMap
+
+__d  => In Javascript, which of the following methods would you use to search a character for a specific string?
+[A]
+substring
+[B]
+charAt
+[C]
+substr
+[D]
+indexOf
+
+__b  => See the snipset below and choose one answer <xsl:for-each select="LIST//TITLE">...</xsl:for-each>
+[A]
+Match all <TITLE> elements that are grandchildren of <LIST> element
+[B]
+Match all <TITLE> elements one or more level deep in the <LIST> element
+[C]
+Match all <TITLE> elements that are children of <LIST> element
+
+__b  => In XSLT, a string is a sequence of one or more Unicode character
+[A] true
+[B] false
+
+__b  => SAX parser has high memory consumtion?
+[A] true
+[B] false
+
+__c  => What would the browser output if the following script is executed? < SCRIPT LANGUAGE = "JavaScript" > vararray = [[1,2, 3], [1,2, 3]]; for (var i in array ) { for (var j in array[ i ]) document.write( array[ i ][ j ] + ""); document.writeln("<BR>");
+}
+</SCRIPT >
+[A] |
+Nothing, the script would generate an error
+[B]
+1 23
+[C]
+1 2 3 1 2 3
+
+__b  => W3C DOM uses both tree and object model concepts
+[A] ,
+false]
+[B]
+True
+
+__b  => Where is the correct place to insert a JavaScript?
+[A]
+The <body> section.
+[B]
+Both the <head> section and the <body> section are correct.
+[C]
+The <head> section.
+
+__d  => The entities that are used only in DTDs are referred to as
+[A]
+Internal entities
+[B]
+External entities
+[C]
+Parameter entities
+[D]
+General entities
+
+__b  => xmlDoc.async= 'false' mean
+[A]
+A part of document can be processed before fully loading document
+[B]
+Complete document must be loaded before futher processing
+
+__b  => Root element must not be a non empty tag?
+[A] true
+[B] false
+
+__a  => Internal DTDs specify the DTD within square brackets in the declaration it self
+[A] true
+[B] false
+
+__a  => Which of the following line of code are correct namespace declarations?
+[A]
+<Title:catalog xmlns:book="http://www.fpt.edu.vn">
+[B]
+<CD:catalog CD:xmlns="http://www.fpt.edu.vn">
+[C]
+<Title:xmlns Title:book="http://www.fpt.edu.vn">
+[D]
+<Car xmlns:book xmlns="http://www.fpt.edu.vn">
+
+__b  => Implements the method of ErrorHandler, EntityResolver, DTDHandler
+[A]
+ContentHandler
+[B]
+DefaultHandler
+[C]
+XMLReader
+
+__b  => Leaf nodes have child nodes under them?
+[A] true
+[B] false
+
+__a  => Document Object Model (DOM) treats a document as an object
+[A] true
+[B] false
+
+__b  => The resolveEntity method of EntityResolver interface allow the application
+[A]
+to receive notification of all events
+[B]
+to resolve external entity
+[C]
+to resolve parse error
+
+__b  => The word sequence in the term sequence structure refers to the sequence of
+[A]
+bits in a JavaScript instruction
+[B]
+JavaScript instructions in a script
+[C]
+scripts in a HTML file
+[A] 
+HTML files in a Web site
+
+__C  => What would the browser display if the following script was executed? <SCRIPT LANGUAGE = "JavaScript"> for( var i = 0; i < 5; i++ ) document. write("0");
+</SCRIPT>
+[A]
+Nothing, the script would generate an error
+[B]
+OOOO
+[C]
+ooooo
+
+__c  => In the following line, the word document is a which resides in the computer's memory and contains
+information used by the script.
+document.writeln("Hello World");
+[A]
+attribute
+[B]
+behavior
+[C]
+object
+[D]
+method
+
+__BCD  => QN=1 (2726) Which of these characters can be included within the text in an XML document in literal form?
+a. >
+b. ;
+c. :
+d. -
+
+__A  => QN=2 (2928) XML parser checks for validity and well formed ness?
+a. True
+b. False
+
+__D  => QN=3 (2724) Which of the following is/are optional in the creation of an XML file?
+a. The <?xml version="1.0"?> statement
+b. The root element
+c. The opening tag in an element
+d. Entities
+
+__B  => QN=5 (2934) A descendant having a new namespace cannot override the namespace defined by the parrent element?
+a. true
+b. false
+
+__B  => QN=6 (2926) Parameter entities use ampersand (&) and semicolon (;) as delimiters?
+a. true
+b. false
+
+__A  => QN=7 (2930) XML developer has to ensure the uniqueness of the element names and attributes in a document?
+a. true
+b. false
+
+__B  => QN=8 (2929) XML is transformed only via XSLT?
+a. true
+b. false
+
+__B  => QN=9 (2931) Browser has the ability distinguish duplicate element names in an XML document?
+a. true
+b. false
+
+__C  => QN=10 (2725) Which of these is a valid comment in XML?
+a. <!--This is a sample XML document>
+b. <?This is a sample XML document?>
+c. <!- -This data should be hidden
+ <FIRSTNAME>Joe</FIRSTNAME>
+ <LASTNAME>Johnson</LASTNAME>
+- ->
+d. <?--This is a sample XML document-->
+
+__C  => QN=11 (2731) What does the keyword SYSTEM indicate in the following code?
+<?xml version ="1.0"?>
+<!DOCTYPE Book SYSTEM "book.dtd">
+a. It is a system generated DTD
+b. Book.dtd is an internal DTD
+c. Book.dtd is an external DTD
+d. Book is a system variable
+
+__B  => QN=12 (2728) Which of the following statements is not true?
+a. The <!DOCTYPE [...] > declaration follows the XML declaration
+b. Entities that appear anywhere in an XML document are referred to as Parameter entities
+c. Attributes are added to an element to provide information about the element
+d. Entities must be declared within the document DOCTYPE declaration
+
+__B  => QN=13 (2718) Which of the following is not a keyword used for default settings in an! ATTLIST element?
+a. #IMPLIED
+b. #DEFINE
+c. #REQUIRED
+d. #FIXED
+
+__B  => QN=14 (2938) External DTDs use the keyword URL to specify the location of the DTD?
+a. true
+b. false
+
+__A  => QN=15 (2717) The question mark (?) operator indicates
+a. either zero or one occurrence.
+b. any number of occurrences.
+c. one or more occurrences.
+d. more than one occurrence.
+
+__A  => QN=16 (2945) For each element type associated with a sequence element, there must be an element in the XML instance in the same order?
+a. true
+b. false
+
+__A  => QN=17 (2948) Specifies that the attribute cannot be used?
+a. prohibited
+b. required
+c. optional
+d. use
+
+__A  => QN=18 (2918) An XML Schema defines whether an element is empty or can include text.
+a. true
+b. false
+
+__A  => QN=19 (2920) In schema, the ALL element requires that
+a. each element in the group must occur at most once
+b. there must be an element in the XML instance in the same order
+c. the maxOccurs attribute can be 0 or 1
+
+__B  => QN=20 (2944) The default value for the minOccurs attribute in Schema is 0
+a. true
+b. false
+
+__C  => QN=21 (2771) See the snipset below and choose one answer:
+
+<xsl:value-of select="floor(-2.3)"/>
+a. -2
+b. -2.5
+c. -3
+
+__C  => QN=22 (2760) Which top level XSLT elements is used to define a variable in a stylesheet or template and to assign it a value
+a. xsl:include
+b. xsl:output
+c. xsl:variable
+d. xsl:text
+
+__A  => QN=23 (2763) Xpath can be thought of as a query language like SQL
+a. true
+b. false
+
+__B  => QN=24 (2738) Which of these is the correct syntax to link an XSL file to an XML document?
+a. <?xmls type="text/xsl" href="candidate.xsl"?>
+b. <?xml-stylesheet type="text/xsl" href="candidate.xsl"?>
+c. <?xsl type="text/xsl" href="candidate.xsl"?>
+d. <?xml:xsl href="candidate.xsl"?>
+
+__B  => QN=25 (2901) CSS positions can be either absolute or ________.
+a. static
+b. relative 
+c. transferred
+d. disabled
+
+__B  => QN=26 (2889) ________ are declared in each individual HTML element using the keyword STYLE.
+a. Cascading style sheets
+b. Inline styles
+c. External styles
+d. User style sheets
+
+__A  => QN=27 (2773) XSLT takes two things as input: an XSLT stylesheet and an xml input document
+a. true
+b. false
+
+__A  => QN=28 (2897) What is the significance of the following CSS rule?
+LI, EM { color: red;cfont-weight: bold }
+a. It will apply the specified style to text enclosed by either LI or EM tags.
+b. It will apply the specified style to text enclosed by the EM tags which are within LI tags.
+c. It will apply the specified style to text enclosed by the LI tags which are within EM tags.
+d. It will apply the specified style to text not enclosed by either LI or EM tags.
+
+__B  => QN=29 (2893) Which of the following selections is the proper way to apply this CSS rule:
+.blue { color: blue }
+a. <P COLOR = "blue">
+b. <P CLASS = "blue">
+c. <P COLOR = .blue>
+d. <P CLASS = .blue>
+
+__A  => QN=30 (2737) In CSS, when a style is applied to an element containing other elements inside it
+a. The style is applied to the element and all the other elements contained in it
+b. The style is applied only to the main element
+c. The style is applied only to the child elements
+d. The user is prompted with a message enquiring whether the style is to be applied to the child elements as well
+
+__B  => QN=31 (2747) In DOM, a node can have
+a. More than one parent nodes
+b. More than one children nodes
+c. No sibling nodes
+
+__B  => QN=32 (2951) Tree model is applied to static documents?
+a. true
+b. false
+
+__B  => QN=33 (2754) Method hasChildNodes of XMLDOMNode mean
+a. Determine if a given node is empty or not
+b. Determine if a given node has child nodes or not
+c. Determine if a given node and all descendants has been parsed and instantiated
+d. Return an integer representing the XML DOM node type
+
+__B  => QN=34 (2739) With reference to the snippet of code given below, choose the correct syntax to complete the second line in order to create a XML Document Object
+
+var sample
+sample = ________________________
+a. CreateXMLDocument()
+b. new ActiveXObject("microsoft.XMLDOM")
+c. NewXMLDocument
+d. New XMLDOMObject
+
+__C  => QN=35 (2740) Which object represents the top level of the XML source?
+a. XML
+b. DOMParent
+c. DOMDocument
+d. None of them
+
+__B  => QN=36 (2753) In SAX, to provide customized DTD handling, application need to implement
+a. ErrorHandler
+b. DTDHandler
+c. EntityResolver
+d. DefaultHandler
+
+__B  => QN=37 (2746) SAX uses
+a. Pull parsing machenic for processing
+b. Push parsing machenic for processing
+c. A in memory data structure for processing
+
+__A  => QN=38 (2923) The StAX cursor API represents
+a. a cursor with which you can walk an XML document from beginning to end.
+b. an XML document stream as a set of discrete event objects.
+c. an object - based tree in computer memory
+
+__B  => QN=39 (2751) SAX support random access
+a. true
+b. false
+
+__B  => QN=40 (2756) Method characters() of ContentHandler interface receives events for
+a. The begining of element
+b. Character data
+c. The end of element
+d. The begining of document
+
+__B  => QN=41 (2819) What is the value of num after the following statement is performed?
+ num = Math.round( 2.45 );
+a. 0
+b. 2
+c. 2.5
+d. 3
+
+__B  => QN=42 (2880) What does the value string contain after the following code is executed?
+var string = "Good luck on the test";
+string = string.link("www.deitel.com")
+a. a link to www.deitel.com with the text "www.deitel.com"
+b. a link to www.deitel.com with the text "Good luck on the test"
+c. the text "www.deitel.com"
+d. Nothing, the string conversion will generate an error.
+
+__C  => QN=43 (2857) To divide the value of the seventh element of array a by 2 and assign the result to the variable x, we would write ________.
+a. x / 2 = a( 7 )
+b. x = a[ 7 ] / 2
+c. x = a[ 6 ] / 2
+d. x = a( 6 / 2 )
+
+__D  => QN=44 (2788) A procedure for solving a problem in terms of the actions to be executed and the order in which these actions are to be executed is called ________.
+a. program control
+b. a program structure
+c. a control structure
+d. an algorithm
+
+__C  => QN=45 (2811) Which of the following is not required for counter-controlled repetition?
+a. final value
+b. initial value
+c. sentinel
+d. increment
+
+__A  => QN=46 (2812) What is wrong with the following line of code?
+ <P><FONT SIZE='5'>This is a test.</FONT></P>
+a. Nothing
+b. There is no attribute named SIZE for the element FONT
+c. The value 5 must not be placed within quotes
+d. The value 5 must be placed within double quotes
+
+__B  => QN=47 (2908) Which of the following statements regarding filters and transitions is false?
+a. They are built into Internet Explorer.
+b. They are applied on a client computer at run time by the server.
+c. They enable portions of pages and entire pages to be faded in an out.
+d. They enable 3-d effects.
+
+__C  => QN=48 (2790) A program in which all statements are executed one after the other in the order in which they are written exhibit ________.
+a. transfer of control
+b. algorithms
+c. sequential execution
+d. direct execution
+
+__B  => QN=49 (2871) ________ and ________ run slower when they are applied to large arrays.
+a. linear search, binary search
+b. linear search, bubble sort
+c. binary search, bubble sort
+d. linear - bubble search, binary - linear sort
+
+__B  => QN=50 (2881) What is the value of s3 after the following code is executed?
+var s1 = one,
+ s2 = two,
+ s3 = three;
+s1.concat(s2)
+s3 = s1;
+a. one
+b. onetwo
+c. three
+d. onetwothree
+
+__B  => QN=1 (2934) A descendant having a new namespace cannot override the namespace defined by the parrent element?
+a. true
+b. false
+
+__D  => QN=2 (2711) ________ is a markup language for describing how content is rendered and ________ is a markup language for describing
+structured data—content is separated from presentation.
+a. XML, HTML.
+b. HTML, SGML.
+c. XML, XSL.
+d. HTML, XML.
+
+__B  => QN=3 (2925) Characters like ">" and "&" can be used in PCDATA sections?
+a. true
+b. false
+
+__B  => QN=4 (2926) Parameter entities use ampersand (&) and semicolon (;) as delimiters?
+a. true
+b. false
+
+__D  => QN=5 (2721) Which of the following XML code snippets is/are correct?
+a. <BOOK>
+ <AUTHOR> abc..... <AUTHOR>
+</BOOK>
+b. <BOOK>
+ <AUTHOR> abc...
+</BOOK>
+c. <BOOK>
+ <AUTHOR> abc..... </AUTHOR>
+</Book>
+d. <BOOK>
+ <AUTHOR> abc...</AUTHOR>
+</BOOK>
+
+__AB  => QN=6 (2729) Which statements are true?
+a. The DTD specifies the grammatical structure of an XML document.
+b. The DTD contains the list of tags allowed within the XML document, and their types and attributes.
+c. The DTD does not define the way elements relate to one another within the document's tree structure.
+
+__C  => QN=7 (2731) What does the keyword SYSTEM indicate in the following code?
+<?xml version ="1.0"?>
+<!DOCTYPE Book SYSTEM "book.dtd">
+a. It is a system generated DTD
+b. Book.dtd is an internal DTD
+c. Book.dtd is an external DTD
+d. Book is a system variable
+
+__A  => QN=8 (2717) The question mark (?) operator indicates
+a. either zero or one occurrence.
+b. any number of occurrences.
+c. one or more occurrences.
+d. more than one occurrence.
+
+__A  => QN=9 (2935) Each XML document can be represented as a tree structure?
+a. true
+b. false
+
+__B  => QN=10 (2728) Which of the following statements is not true?
+a. The <!DOCTYPE [...] > declaration follows the XML declaration
+b. Entities that appear anywhere in an XML document are referred to as Parameter entities
+c. Attributes are added to an element to provide information about the element
+d. Entities must be declared within the document DOCTYPE declaration
+
+__B  => QN=11 (2947) Restricts string types using regular expressions?
+a. enumeration
+b. pattern
+c. use
+d. fractionDigits
+
+__A  => QN=12 (2942) Allow to validate documents that use markup from multiple namespaces?
+a. Namespace support
+b. Attribute grouping
+c. Archetypes
+d. Open Model
+
+__A  => QN=13 (2943) Match the xml data againts its corresponding data type in Schema?
+<start>05:30:10.5</start>
+a. time
+b. boolean
+c. decimal
+d. string
+
+__A  => QN=14 (2920) In schema, the ALL element requires that
+a. each element in the group must occur at most once
+b. there must be an element in the XML instance in the same order
+c. the maxOccurs attribute can be 0 or 1
+
+__D  => QN=15 (2744) Which one of the following is the root element of all XML Schema documents?
+a. AttributeType
+b. ElementType
+c. description
+d. Schema
+
+__B  => QN=16 (2741) Most DOM objects such as XMLDOMAttribute, XMLDOMElement, XMLDOMEntity, XMLDOMComment etc have several common methods and properties since they are inherited from a common object. Which object is it?
+a. DOMDocument
+b. XMLDOMNode
+c. XMLDOMText
+d. XMLDOMMain
+
+__B  => QN=17 (2739) With reference to the snippet of code given below, choose the correct syntax to complete the second line in order to create a XML Document Object
+
+var sample
+sample = ________________________
+a. CreateXMLDocument()
+b. new ActiveXObject("microsoft.XMLDOM")
+c. NewXMLDocument
+d. New XMLDOMObject
+
+__A  => QN=18 (2958) DOM considers all items present in XML document as node?
+a. true
+b. false
+
+__B  => QN=19 (2757) The item() method of XMLDOMNodeList and XMLDOMNamedNodeMap return the node present at specified index
+a. false
+b. true
+
+__A  => QN=20 (2719) Which DOMDocument method is used to create a new attribute?
+a. createAttribute
+b. load
+c. loadAttribute
+d. transformNode
+
+__B  => QN=21 (2784) What is the result of the statement 17 % 5?
+a. 0
+b. 2
+c. 3
+d. 12
+
+__C  => QN=22 (2869) What is the effect of the join statement in the following code?
+var theArray1 = [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ],
+theArray2 = [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ];
+var value = theArray1.join( " " );
+a. The join method will concatenate the values of theArray2 to theArray1.
+b. The join method will concatenate the values of theArray1 to theArray2.
+c. The join method will create a string from the values in theArray1.
+d. The join method will create a string with the values of theArray2 concatenated to the values of theArray1.
+
+__D  => QN=23 (2843) Where on the browser will the command window.status( "text" ) display output?
+a. in the body
+b. in an alert dialog box
+c. in a status dialog box
+d. on the status bar
+
+__B  => QN=24 (2822) In a switch structure, the ________ case clause is used to process exceptional conditions and is usually listed last.
+a. break
+b. default
+c. else
+d. then
+
+__D  => QN=25 (2858) Which of the following is the proper method to dynamically allocate memory to an array of 100 elements?
+a. var c = new c[ 100 ];
+b. var c = new c( 100 );
+c. var c = new Array[ 100 ];
+d. var c = new Array( 100 );
+
+__A  => QN=26 (2866) Call-by- ________ is the method of passing a copy of the argument's value to a function.
+a. value
+b. parameters
+c. memory
+d. reference
+
+__C  => QN=27 (2873) MC: How many comparisons will a linear search function makes before finding a match if the search key has a value of 3
+and the array x has the values:
+x[ 0 ] = 0
+x[ 1 ] = 2
+x[ 2 ] = 1
+x[ 3 ] = 4
+x[ 4 ] = 3
+x[ 5 ] = 3
+a. 3
+b. 4
+c. 5
+d. 6
+
+__C  => QN=28 (2779) Consider the following HTML code.
+<HTML>
+<SCRIPT LANGUAGE = "JavaScript">
+<!--
+document.writeln("Hello World");
+// -->
+</SCRIPT>
+</HTML>
+
+What would a browser capable of scripting display when executing this code?
+a. document.writeln("Hello World");
+b. nothing
+c. Hello World
+d. <HTML>
+<SCRIPT LANGUAGE = "JavaScript">
+<!--
+document.writeln("Hello World");
+// -->
+</SCRIPT>
+</HTML>
+
+__B  => QN=29 (2785) Which of the following selections does not follow the rules of operator precedence.
+Assume that the operators on the left are evaluated first.
+a. multiplication, division, addition
+b. parentheses, subtraction, modulus
+c. division, multiplication, addition
+d. parentheses, modulus, subtraction
+
+__C  => QN=30 (2781) The \n,\t, \r escape sequences do not affect HTML rendering unless they are used between which tags?
+a. <SELECT></SELECT>
+b. <SCRIPT></SCRIPT>
+c. <PRE></PRE>
+d. <A></A>
+
+__A  => QN=31 (2850) Identifiers which have static duration ________.
+a. are globally accessible to the script
+b. exist while the function in which they are declared is still active
+c. exist while the function in which they are declared is no longer active
+d. are not automatically destroyed when the function in which they are declared is exited.
+
+__D  => QN=32 (2862) What would the browser display if this script was executed?
+<SCRIPT LANGUAGE = "JavaScript">
+ var c = new Array(8);
+ for( var i = 0; i < 10; i++ )
+ c[i] = i;
+ document.write(c[9])
+</SCRIPT>
+a. undefined
+b. 0
+c. 8
+d. 9
+
+__B  => QN=33 (2885) What will value contain after the following code is executed?
+var value = new Date();
+value = value.valueOf();
+a. the current date in the format hh:mm:ss calculated from the number of milliseconds between midnight January 1, 1970 and the current date
+b. a large integer representing the number of milliseconds between midnight January 1, 1970 and the current date
+c. the current date in the format hh:mm calculated from the number of milliseconds between midnight January 1, 1970 and the current date
+d. a large floating point number representing the number of milliseconds between midnight January 1, 1970 and the current date
+
+__A  => QN=34 (2813) What would the browser display if the following script was executed?
+ <SCRIPT LANGUAGE = "JavaScript">
+ for( int i = 0; i < 5; i++ )
+ document.write("X");
+ </SCRIPT>
+a. Nothing, the script would generate an error
+b. XXXX
+c. XXXXX
+d. XXXXXX
+
+__A  => QN=35 (2903) With the ________, scripts can respond to a user moving the mouse, scrolling up or down the screen or entering keystrokes.
+a. event model.
+b. object model.
+c. Document Object Model for XSL.
+d. I/O capture model.
+
+__B  => QN=36 (2786) What is the evaluation of the following expression?
+((3+ ( 5 + 4 ) * 7 ) + 4 ) / 5
+a. 8
+b. 14
+c. 17.6
+d. 26.4
+
+__D  => QN=37 (2911) The chroma filter is used to ________.
+a. apply color to an image region
+b. apply color to a background
+c. apply transparency effects using hard-code antialiasing
+d. apply transparency effects dynamically
+
+__B  => QN=38 (2908) Which of the following statements regarding filters and transitions is false?
+a. They are built into Internet Explorer.
+b. They are applied on a client computer at run time by the server.
+c. They enable portions of pages and entire pages to be faded in an out.
+d. They enable 3-d effects.
+
+__A  => QN=39 (2838) Function definitions often contain ________ which are considered to be local variables and correspond with the arguments in the function call.
+a. parameters
+b. static variables
+c. register variabless
+d. constant variables
+
+__D  => QN=40 (2800) What would the browser display if the following code is executed in a script?
+var grade = 59
+if ( grade >= 60 )
+ document.writeln( "Passed." );
+else
+ document.write( "Failed. " );
+ document.writeln( "You must take this course again." );
+a. Passed.
+b. Failed.
+c. You must take this course again.
+d. Failed. You must take this course again.
+
+__D  => QN=41 (2851) Script-level variables have ________ duration.
+a. local
+b. global
+c. automatic
+d. static
+
+__A  => QN=42 (2787) Which of the following is not a valid equality or relational operator?
+a. =
+b. <
+c. >
+d. !=
+
+__C  => QN=43 (2797) Which of the following is not a JavaScript keyword?
+a. break
+b. delete
+c. sub
+d. function
+
+__C  => QN=44 (2915) Which of the following is not a property of the glow filter?
+a. color
+b. strength
+c. direction
+d. All of the above are properties of the glow filter.
+
+__C  => QN=45 (2830) Which of the following is false?
+a. In any flowchart, any rectangle (action) can be replaced by 2 rectangle (actions) in sequence.
+b. In any flowchart, any rectangle (action) can be replaced by any control structure (sequence, if, if/else, switch, while, do/while or for).
+c. In any flowchart, control structure (sequence, if, if/else, switch, while, do/while or for) can be replaced by 2 rectangle (actions) in sequence.
+d. Connecting control structures in sequence is called control structure stacking
+
+__D  => QN=46 (2904) The ________ attribute of the ________ element specifies another element that is identified by its ________ attribute.
+a. ONCLICK, SCRIPT, ID.
+b. FOR, ID, SCRIPT.
+c. ID, SCRIPT, ONCLICK.
+d. FOR, SCRIPT, ID.
+
+__B  => QN=47 (2774) Microsoft's version of scripting that uses the Java syntax is called ________.
+a. JavaScript
+b. JScript
+c. ECMAScript
+d. J++
+
+__D  => QN=48 (2827) What would the browser display if it executed the following script?
+<SCRIPT LANGUAGE = "JavaScript">
+ var total = 0;
+ nextLoop:
+ for ( var i = 0; i < 5; ++i ) {
+ for ( var j = 0; j < 2 ; ++j ) {
+ if ( i < 2 )
+ continue nextLoop;
+ total++;
+ }
+ total++;
+ }
+ total++;
+ document.writeln( total );
+</SCRIPT>
+a. 7
+b. 8
+c. 9
+d. 10
+
+__C  => QN=49 (2856) Which of the following is the proper method to access the length of the array arr[]?
+a. arr[].length
+b. arr[subscript].length
+c. arr.length
+d. arr(length)
+
+__B  => QN=50 (2842) The value a in the following statement is called the ________ and the value b is called the ________.
+face = Math.floor( a + Math.random() * b );
+a. scaling factor, shifting value
+b. shifting value, scaling factor
+c. scaling value, shifting factor
+d. shifting factor, scaling value
+
+__`.toLowerCase().split("\n\n__")
+
+const MLN_QUIZLET_BANKS = ``.toLowerCase().split("\n\n__")
+const MAS_QUIZLET_BANKS = ``.toLowerCase().split("\n\n__")
+const DBW_QUIZLET_BANKS = ``.toLowerCase().split("\n\n__")
+
+// Combine text banks and quizlet banks to one banks
+const PRX_BANKS = PRX_TEXT_BANKS.concat(PRX_QUIZLET_BANKS);
+const MLN_BANKS = MLN_TEXT_BANKS.concat(MLN_QUIZLET_BANKS);
+const MAS_BANKS = MAS_TEXT_BANKS.concat(MAS_QUIZLET_BANKS);
+const DBW_BANKS = DBW_TEXT_BANKS.concat(DBW_QUIZLET_BANKS);
 
 // Handle to get current Banks to search key
 let currentBank = PRX_BANKS
