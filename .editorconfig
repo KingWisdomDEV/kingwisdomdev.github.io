@@ -1,0 +1,16 @@
+root = true
+
+[*]
+# Các thuộc tính cho mọi file
+charset = utf-8
+# end_of_file = lf(Unix)/crlf(Windows) 
+indent_size = 4
+indent_style = tab
+# insert_final_newline = true
+# max_line_length = 100
+tab_width = 4
+# trim_trailing_whitespace = true
+
+[*.{js,ts}]
+# Các thuộc tính cho file .js và .ts
+indent_size = 2

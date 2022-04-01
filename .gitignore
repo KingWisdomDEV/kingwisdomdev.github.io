@@ -1,0 +1,7 @@
+# Config files or folders don't push to git repository
+
+# All files in Local History extension
+.history/
+
+# Node Modules
+node_modules
