@@ -1,6 +1,6 @@
 1) True or False: When you choose lo transfer your project risk to a third party, it may give rise to secondary risk that ad not exist prior to the transfer
-True
-False | A
+True | A
+False 
 2) Which of the following is NOT the advantages of top-down estimating?
 A. Quick 
 B. Activities do not need to be identified 
