@@ -190,8 +190,8 @@ D. What information will be communicated
 34) A project management plan should be realistic in order to be used to manage the project. Which of the following is the best method to achieve a realistic project management plan?
 A. The sponsor creates the project management plan based on input from the project manager
 B. The functional manager creates the project management plan based on input from the project manager
-C. The project manager creates the project management plan based on input from senior management | C
-D. The project manager creates the project management plan based on input from the team
+C. The project manager creates the project management plan based on input from senior management 
+D. The project manager creates the project management plan based on input from the team | D
 35) True or False: The Backward Pass is used through the activities to determine the critical path & available float of the project
 A True
 B. False | B
